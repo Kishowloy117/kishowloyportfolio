@@ -246,7 +246,7 @@
       </div>
       <div class="col-sm-6" >
 
-        <form action="../config.php" method="POST" id="form-box">
+        <form action="config.php" method="POST" id="form-box">
 
           <div class="form-group">
 
