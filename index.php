@@ -177,28 +177,28 @@
   </ol>
   <div class="carousel-inner ">
     <div class="carousel-item active">
-      <img class="d-block w-100 img-fluid" src="picture/1.jpg" alt="First slide">
+      <img class="d-block w-100 img-fluid" src="1.jpg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="picture/2.jpg" alt="Second slide">
+      <img class="d-block w-100" src="2.jpg" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="picture/3.jpg" alt="Third slide">
+      <img class="d-block w-100" src="3.jpg" alt="Third slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="picture/4.jpg" alt="Third slide">
+      <img class="d-block w-100" src="4.jpg" alt="Third slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="picture/5.jpg" alt="Third slide">
+      <img class="d-block w-100" src="5.jpg" alt="Third slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="picture/6.jpg" alt="Third slide">
+      <img class="d-block w-100" src="6.jpg" alt="Third slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="picture/7.jpg" alt="Third slide">
+      <img class="d-block w-100" src="7.jpg" alt="Third slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="picture/8.jpg" alt="Third slide">
+      <img class="d-block w-100" src="8.jpg" alt="Third slide">
 
 
     </div>
@@ -348,7 +348,7 @@
 
 
 
-    <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
+    <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
     <script src="index.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
