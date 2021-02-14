@@ -46,13 +46,13 @@ $output="";
      $email=null;
 
 
-                header("Location:index.php");
+             //   header("Location:index.php");
 
            }
     }
     else {
 
-      header("Location:index.php");
+     // header("Location:index.php");
     }
 
 
