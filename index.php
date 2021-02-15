@@ -274,19 +274,6 @@
 
           <button type="submit" name="submit" class="btn btn-outline-primary" style="margin-right: 100%;">Send</button>
 
-          <a href="https://www.facebook.com/dx.kishowloy.9/" target="_blank">
-          <button type="button" name="button"
-          style="border:0px solid black; background-color: transparent; font-size: 60px; margin-top: 20px;"
-          class="fa">&#xf230;  </button>
-          </a>
-
-          <a href="https://github.com/Kishowloy117" target="_blank">
-          <button type="button" name="button"
-          style="border:0px solid black; background-color: transparent; font-size: 60px; margin-top: 20px; margin-left: 30px;"  class="fa">&#xf1d3;  </button>
-        </a>
-
-          <button type="button" name="button" onclick="showgmail()"
-          style="border:0px solid black; background-color: transparent; font-size: 60px; margin-top: 20px; margin-left: 30px;" class="fa">&#xf1a0;  </button>
 
 
 
@@ -306,8 +293,47 @@
       </div>
 
 
+
+
     </div>
 </div>
+</div>
+
+<!-- <div class="social" style="align-content: center"; margin-top: 0%; >
+
+
+  <a href="https://github.com/Kishowloy117" target="_blank">
+  <button type="button" name="button"
+  style="border:0px solid black; background-color: transparent; font-size: 60px; margin-top: 20px; margin-left: 30px;"  class="fa">&#xf1d3;  </button>
+</a>
+
+  <button type="button" name="button" onclick="showgmail()"
+  style="border:0px solid black; background-color: transparent; font-size: 60px; margin-top: 20px; margin-left: 30px;" class="fa">&#xf1a0;  </button>
+
+
+</div> -->
+
+<div class="container-fluid"style="background-color: white" >
+  <div class="row">
+    <div class="col-4" style="text-align:center; color: white;">
+      <a href="https://www.facebook.com/dx.kishowloy.9/" target="_blank">
+      <button type="button" name="button"
+      style="border:0px solid black; background-color: transparent; font-size: 60px; margin-top: 20px;"
+      class="fa">&#xf230;  </button>
+      </a>
+    </div>
+    <div class="col-4" style="text-align:center ">
+      <a href="https://github.com/Kishowloy117" target="_blank">
+      <button type="button" name="button"
+      style="border:0px solid black; background-color: transparent; font-size: 60px; margin-top: 20px; margin-left: 30px;"  class="fa">&#xf1d3;  </button>
+    </a>
+    </div>
+
+    <div class="col-4" style="text-align:center ">
+      <button type="button" name="button" onclick="showgmail()"
+      style="border:0px solid black; background-color: transparent; font-size: 60px; margin-top: 20px; margin-left: 30px;" class="fa">&#xf1a0;  </button>
+    </div>
+  </div>
 </div>
 
 
@@ -324,5 +350,3 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
-
-
