@@ -246,7 +246,7 @@
       </div>
       <div class="col-sm-6" >
 
-        <form action="config.php" method="POST" id="form-box">
+        <form action="" method="POST" id="form-box">
 
           <div class="form-group">
 
@@ -316,38 +316,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
     <script src="index.js"></script>
@@ -356,3 +324,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
+
+<?php
+
+  require 'config.php';
+ ?>

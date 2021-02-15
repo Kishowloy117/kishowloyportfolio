@@ -1,4 +1,6 @@
 <?php
+
+//
 require 'class.PHPMailer.php';
 require 'class.SMTP.php';
 $mail=new PHPMailer(true);
@@ -44,13 +46,13 @@ $output="";
      $email=null;
 
 
-             //   header("Location:index.php");
+            //    header("Location:index.php");
 
            }
     }
     else {
 
-     // header("Location:index.php");
+    //  header("Location:index.php");
     }
 
 
