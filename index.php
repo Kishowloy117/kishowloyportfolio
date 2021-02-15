@@ -341,7 +341,12 @@ echo "hare krishno";
 
 require 'class.PHPMailer.php';
 require 'class.SMTP.php';
+echo "hare krishno1";
+
 $mail=new PHPMailer(true);
+
+echo "hare krishno2";
+
 
 
 $output="";
