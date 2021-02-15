@@ -4,28 +4,25 @@
 
 <?php
 
-echo "hare krishno";
 
-echo "hare krishno";
 require 'class.phpmailer.php';
-echo "hare krishno PHp";
+
 
 require 'class.smtp.php';
-echo "hare krishno1";
+
 
 $mail=new PHPMailer(true);
 
-echo "hare krishno2";
 
 
 
 $output="";
   if(isset($_POST['submit']))
   {
-    echo "inside box";
+    
    // require 'phpmailerautoload.php';
      
-    echo " after phpmailer";
+   
 
     $email = $_POST['email'];
     $subject = $_POST['sub'];
@@ -35,7 +32,7 @@ $output="";
 
 
   //  try{
-     echo " after initr";
+    
 
 
     $mail->isSMTP();
@@ -58,10 +55,10 @@ $output="";
     $mail->Body = "<h3> <br>Email : $email <br> <h3> <br>Name : $name <br> About : $subject <br> Message : $message</h3>";
 
 
-    echo " next";
+   
     if(!empty($email))
     {
-      echo "  inside emp";
+     
       $mail->setFrom("$email","$name");
    if($mail->send()){
      $email=null;
