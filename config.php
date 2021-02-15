@@ -26,7 +26,7 @@ $output="";
   //  try{
 
 
-    $mail->isSMTP();
+    //$mail->isSMTP();
     //$mail->SMTPDebug = 2;
     $mail->Debugoutput = 'html';
     $mail->Host='smtp.gmail.com';
