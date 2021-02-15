@@ -4,6 +4,8 @@
 
 <?php
 
+echo "hare krishno";
+
 //
 require 'class.PHPMailer.php';
 require 'class.SMTP.php';
