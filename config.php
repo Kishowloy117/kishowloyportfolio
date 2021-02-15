@@ -72,7 +72,7 @@ $output="";
                </div>';
                echo "$output";
 
-            //    header("Location:index.php");
+                header("Location:index.php");
 
            }
     }
@@ -80,7 +80,7 @@ $output="";
 
       echo " not send";
 
-    //  header("Location:index.php");
+      header("Location:index.php");
     }
 
 
