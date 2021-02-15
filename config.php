@@ -1,5 +1,5 @@
-<?php
-  require 'index.php';
+ <?php
+  //require 'index.php';
  ?>
 
 <?php
@@ -26,7 +26,7 @@ $output="";
   //  try{
 
 
-    //$mail->isSMTP();
+    $mail->isSMTP();
     //$mail->SMTPDebug = 2;
     $mail->Debugoutput = 'html';
     $mail->Host='smtp.gmail.com';
@@ -51,10 +51,10 @@ $output="";
      $email=null;
 
 
-     // $output = '<div class="alert alert-success">
-     //             <h5>Thankyou! for contacting us, We\'ll get back to you soon!</h5>
-     //           </div>';
-     //           echo "$output";
+     $output = '<div class="alert alert-success">
+                 <h5>Thankyou! for contacting us, We\'ll get back to you soon!</h5>
+               </div>';
+               echo "$output";
 
             //    header("Location:index.php");
 
