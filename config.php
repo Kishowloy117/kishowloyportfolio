@@ -1,6 +1,4 @@
 <?php
-
-//
 require 'class.PHPMailer.php';
 require 'class.SMTP.php';
 $mail=new PHPMailer(true);
