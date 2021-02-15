@@ -1,4 +1,8 @@
 <?php
+  require 'index.php';
+ ?>
+
+<?php
 
 //
 require 'class.PHPMailer.php';
@@ -10,6 +14,7 @@ $output="";
   if(isset($_POST['submit']))
   {
     require 'PHPMailerAutoload.php';
+
 
     $email = $_POST['email'];
     $subject = $_POST['sub'];
@@ -45,6 +50,11 @@ $output="";
    if($mail->send()){
      $email=null;
 
+
+     // $output = '<div class="alert alert-success">
+     //             <h5>Thankyou! for contacting us, We\'ll get back to you soon!</h5>
+     //           </div>';
+     //           echo "$output";
 
             //    header("Location:index.php");
 
