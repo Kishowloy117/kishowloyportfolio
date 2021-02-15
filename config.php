@@ -4,9 +4,8 @@
 
 <?php
 
-echo "hare krishno";
-
 //
+echo "hare krishno";
 require 'class.PHPMailer.php';
 require 'class.SMTP.php';
 $mail=new PHPMailer(true);
@@ -15,6 +14,7 @@ $mail=new PHPMailer(true);
 $output="";
   if(isset($_POST['submit']))
   {
+    echo "inside box";
     require 'PHPMailerAutoload.php';
 
 
@@ -46,8 +46,10 @@ $output="";
     $mail->Body = "<h3> <br>Email : $email <br> <h3> <br>Name : $name <br> About : $subject <br> Message : $message</h3>";
 
 
+    echo " next";
     if(!empty($email))
     {
+      echo "  inside emp";
       $mail->setFrom("$email","$name");
    if($mail->send()){
      $email=null;
@@ -63,6 +65,8 @@ $output="";
            }
     }
     else {
+
+      echo " not send";
 
     //  header("Location:index.php");
     }
