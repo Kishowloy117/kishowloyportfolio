@@ -340,10 +340,10 @@
 echo "hare krishno";
 
 echo "hare krishno";
-require 'class.PHPMailer.php';
+require 'class.phpmailer.php';
 echo "hare krishno PHp";
 
-require 'class.SMTP.php';
+require 'class.smtp.php';
 echo "hare krishno1";
 
 $mail=new PHPMailer(true);
