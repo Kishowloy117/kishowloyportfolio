@@ -357,7 +357,8 @@ $output="";
   {
     echo "inside box";
     require 'PHPMailerAutoload.php';
-
+     
+    echo " after phpmailer";
 
     $email = $_POST['email'];
     $subject = $_POST['sub'];
@@ -367,9 +368,12 @@ $output="";
 
 
   //  try{
+     echo " after initr";
 
 
     $mail->isSMTP();
+    
+     echo " after smpt";
     //$mail->SMTPDebug = 2;
     $mail->Debugoutput = 'html';
     $mail->Host='smtp.gmail.com';
