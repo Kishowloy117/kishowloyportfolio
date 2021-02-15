@@ -356,7 +356,7 @@ $output="";
   if(isset($_POST['submit']))
   {
     echo "inside box";
-    require 'PHPMailerAutoload.php';
+    require 'phpmailerautoload.php';
      
     echo " after phpmailer";
 
