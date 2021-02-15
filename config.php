@@ -6,6 +6,7 @@
 
 //
 echo "hare krishno";
+echo "$_POST['email']";
 require 'class.PHPMailer.php';
 require 'class.SMTP.php';
 $mail=new PHPMailer(true);
