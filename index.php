@@ -340,6 +340,8 @@
 echo "hare krishno";
 
 require 'class.PHPMailer.php';
+echo "hare krishno PHp";
+
 require 'class.SMTP.php';
 echo "hare krishno1";
 
