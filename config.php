@@ -4,20 +4,28 @@
 
 <?php
 
-//
 echo "hare krishno";
-echo "$_POST['email']";
-require 'class.PHPMailer.php';
-require 'class.SMTP.php';
+
+echo "hare krishno";
+require 'class.phpmailer.php';
+echo "hare krishno PHp";
+
+require 'class.smtp.php';
+echo "hare krishno1";
+
 $mail=new PHPMailer(true);
+
+echo "hare krishno2";
+
 
 
 $output="";
   if(isset($_POST['submit']))
   {
     echo "inside box";
-    require 'PHPMailerAutoload.php';
-
+   // require 'phpmailerautoload.php';
+     
+    echo " after phpmailer";
 
     $email = $_POST['email'];
     $subject = $_POST['sub'];
@@ -27,9 +35,12 @@ $output="";
 
 
   //  try{
+     echo " after initr";
 
 
     $mail->isSMTP();
+    
+     echo " after smpt";
     //$mail->SMTPDebug = 2;
     $mail->Debugoutput = 'html';
     $mail->Host='smtp.gmail.com';
@@ -104,7 +115,6 @@ $output="";
 
               //  echo "$output";
 //    }
-
 
 
  ?>
